@@ -1,0 +1,101 @@
+/* Define font styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  ul {
+    font-size: 20px;
+  }
+  
+  /* Center the list items in ordered lists */
+  ol {
+    list-style-position: inside;
+    text-align: center;
+  }
+  
+  /* Define common styles for elements */
+  .common {
+    text-align: center;
+    color: rgb(199, 211, 199);
+  }
+  
+  /* Define styles for the header */
+  .header {
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+  }
+  
+  /* Define styles for the main body */
+  .mainbody {
+    background-color: white;   
+  }
+  
+  /* Define styles for the footer */
+  .footer {
+    background-color: black;
+    color: white;
+    height: 25px;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+  }
+  
+  /* Center images */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 46%;
+  }
+  
+  /* Define styles for navigation */
+  nav {
+    background-color: rgb(199, 211, 199);
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    color: white;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: white;
+  }
+  
+  /* Define styles for "back to top" link */
+  a[href="#top"] {
+    color: rgb(199, 211, 199);
+    display: block;
+    text-align: center;
+  }
+  
+  /* Define font sizes for headings */
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  
+  h4 {
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  /* Define styles for tableau */
+  .tableauPlaceholder {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
